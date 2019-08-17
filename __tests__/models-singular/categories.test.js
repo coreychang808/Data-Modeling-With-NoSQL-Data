@@ -8,6 +8,12 @@ describe('Categories Model (Singular)', () => {
   // How will you handle both the happy path and edge cases in these tests?
 
   it('can create() a new category', () => {
+    const categories = new categories();
+    const testData = {
+      name: 'corey',
+      description: 'cool AF'
+    };
+    return 
   });
 
   it('can get() a category', () => {
